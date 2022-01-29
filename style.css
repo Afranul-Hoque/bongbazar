@@ -1,0 +1,167 @@
+.navbar
+{
+background: #040404;
+}
+
+
+.dropdown-item
+{
+  border-bottom: 1px solid #70F905 !important;
+}
+.carousel-caption
+{
+  top: 300px;
+}
+
+.bg-orange
+{
+  background: #f0644f;
+  font-weight: 600;
+}
+.margin
+{
+  border : 2px solid #f0644f;
+  border-right: 2px solid white;
+}
+
+.underline
+{
+  width: 100px;
+  height: 2px;
+  background-color: orangered;
+
+}
+.bg-light-gray
+{
+  background-color: rgba(111,111,111,0.09);
+}
+
+
+.line
+{
+  background:green;
+  width: 70px;
+  height: 2px ;
+}
+
+.media img
+{
+  max-width: 120px;
+  height: auto;
+}
+
+ #blog .media-body
+{
+  text-align: center;
+}
+
+.container a {
+  text-decoration: none !important ;
+}
+
+#blog .image
+{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#footer .text
+{
+  font-size: 16px;
+}
+
+
+
+
+
+@media(max-width: 360px)
+{
+  #blog .image
+  {
+    padding-top : 5px;
+
+  }
+  #footer .container
+  {
+    margin-left: 5px;
+    padding-bottom: 5px;
+
+
+  }
+  #footer .media
+  {
+      margin-bottom: 3px;
+  }
+}
+
+@media(max-width: 375px)
+{
+
+  #footer .container
+  {
+    margin-left: 5px;
+
+
+  }
+
+  #footer .media
+  {
+      margin-bottom: 3px;
+  }
+}
+
+
+@media(max-width: 414px)
+{
+  #blog .image
+  {
+    padding-top : 5px;
+    margin-top: 2px;
+
+  }
+  #footer .container
+  {
+    margin-left: 5px;
+
+
+  }
+}
+
+@media(max-width: 768px)
+{
+    .carousel-caption
+    {
+      top: 200px;
+    }
+
+    #blog .image
+    {
+      max-width: 200px;
+      min-height: 200px;
+
+    }
+
+}
+
+
+
+@media(max-width: 767px)
+{
+
+
+  #footer .media
+  {
+    padding-top:0 !important ;
+    padding-left: 5px !important;
+    margin-top: 0 !important;
+
+  }
+  #footer .image2
+  {
+
+    max-weidth:450px !important ;
+    min-height:80px !important ;
+
+  }
+
+}
